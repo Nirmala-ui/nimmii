@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31209" started-at="2020-07-11T13:40:24Z" finished-at="2020-07-11T13:40:55Z">
+    <groups>
+    </groups>
+    <test name="Validating user login" duration-ms="27" started-at="2020-07-11T13:40:24Z" finished-at="2020-07-11T13:40:24Z">
+    </test> <!-- Validating user login -->
+    <test name="Validating Navigation Bar" duration-ms="28559" started-at="2020-07-11T13:40:24Z" finished-at="2020-07-11T13:40:52Z">
+      <class name="Academy.validateNavigationBr">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:Academy.validateNavigationBr@4b6e2263]" name="initialise" is-config="true" duration-ms="23090" started-at="2020-07-11T19:10:24Z" finished-at="2020-07-11T19:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.validateNavigationBr@4b6e2263]" name="basePageNavigation" duration-ms="164" started-at="2020-07-11T19:10:47Z" finished-at="2020-07-11T19:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.validateNavigationBr@4b6e2263]" name="tearDown" is-config="true" duration-ms="5271" started-at="2020-07-11T19:10:47Z" finished-at="2020-07-11T19:10:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.validateNavigationBr -->
+    </test> <!-- Validating Navigation Bar -->
+    <test name="Validated Title in a page" duration-ms="30666" started-at="2020-07-11T13:40:24Z" finished-at="2020-07-11T13:40:54Z">
+      <class name="Academy.ValidateTitle">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:Academy.ValidateTitle@bcef303]" name="initialise" is-config="true" duration-ms="24272" started-at="2020-07-11T19:10:24Z" finished-at="2020-07-11T19:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="FAIL" signature="basePageNavigation()[pri:0, instance:Academy.ValidateTitle@bcef303]" name="basePageNavigation" duration-ms="312" started-at="2020-07-11T19:10:48Z" finished-at="2020-07-11T19:10:48Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURS1ES] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURS1ES] but found [FEATURED COURSES]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Academy.ValidateTitle.basePageNavigation(ValidateTitle.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.ValidateTitle@bcef303]" name="tearDown" is-config="true" duration-ms="4859" started-at="2020-07-11T19:10:50Z" finished-at="2020-07-11T19:10:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.ValidateTitle -->
+    </test> <!-- Validated Title in a page -->
+    <test name="opening Homepage" duration-ms="31207" started-at="2020-07-11T13:40:24Z" finished-at="2020-07-11T13:40:55Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:Academy.HomePage@2e1ef60]" name="initialise" is-config="true" duration-ms="25063" started-at="2020-07-11T19:10:24Z" finished-at="2020-07-11T19:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.HomePage@2e1ef60]" name="basePageNavigation" duration-ms="1661" started-at="2020-07-11T19:10:49Z" finished-at="2020-07-11T19:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@2e1ef60]" name="tearDown" is-config="true" duration-ms="4458" started-at="2020-07-11T19:10:51Z" finished-at="2020-07-11T19:10:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- opening Homepage -->
+  </suite> <!-- Suite -->
+</testng-results>
